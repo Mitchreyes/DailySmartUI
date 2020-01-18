@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import thunk from 'redux-thunk';
 import Logo from './logo';
 import SearchBar from './searchbar';
 import RecentPosts from './recentposts';
