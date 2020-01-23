@@ -10,13 +10,16 @@ class Results extends Component {
 	handleSearchBarSubmit(query) {
 		this.props.fetchPostsWithQuery(query);
 	}
-
 	render() {
 		return (
 			<div>
-				<Logo size={105} />
+				<div className="logo">
+					<Logo size={105} />
+				</div>
 				<SearchBar onSubmit={(query) => this.handleSearchBarSubmit(query)} />
-				<ResultsPosts />
+				<div className="results-posts">
+					<ResultsPosts />
+				</div>
 			</div>
 		);
 	}
