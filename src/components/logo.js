@@ -9,7 +9,7 @@ class Logo extends Component {
 			width: this.props.size ? this.props.size : 105
 		};
 		return (
-			<div className="logo">
+			<div className="logo-main">
 				<Link to="/">
 					<img style={size} alt="daily smarty ui image logo big" src="/assets/logo.png" />
 				</Link>
