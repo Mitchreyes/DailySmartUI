@@ -39,7 +39,7 @@ class Post extends Component {
 		if (this.props.type == 'recent') {
 			return (
 				<li className="recent-post">
-					<div className="recent-post-title">{this.props.title}</div>
+					<div className="recent-post__title">{this.props.title}</div>
 					<div className="recent-post__topics">{this.renderTopics()}</div>
 				</li>
 			);
