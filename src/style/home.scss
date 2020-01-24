@@ -4,9 +4,8 @@
 	width: 66vw;
 	align-content: space-around;
 	justify-items: center;
-	padding: 100px;
-	background-color: cadetblue;
-	// grid-template-rows: 1fr 2fr 1fr;
+	// padding: 25px;
+	grid-template-rows: 1fr 1fr 1fr;
 }
 
 .app-wrapper {
@@ -17,37 +16,28 @@
 .post-topic {
 	margin: 0 4px;
 }
-
-.search-bar {
+.logo-main {
+	margin-top: 20px;
+	width: 600px;
+	height: 100%;
 	display: grid;
 	align-content: center;
-	justify-items: center;
-
-	input {
-		width: 250px;
-		height: 40px;
-	}
-	width: 100%;
-	height: 100px;
-	background-color: coral;
+	justify-content: center;
 }
 
-.logo {
-	width: 150;
-	height: 150px;
+.search-bar-container {
+	width: 600px;
+	height: 100px;
 	display: grid;
-	justify-items: center;
-	align-content: center;
+	align-items: center;
+	justify-content: center;
 }
 
 .recent-posts {
 	width: 600px;
-	height: 120px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	height: 300px;
 
 	display: grid;
 	justify-content: center;
-	align-content: center;
-	background-color: chartreuse;
+	align-items: flex-start;
 }

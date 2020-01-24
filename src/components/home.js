@@ -16,11 +16,11 @@ class Home extends Component {
 	render() {
 		return (
 			<div className="home">
-				<div className="logo">
-					<Logo />
+				<div className="logo-main">
+					<Logo size={150} />
 				</div>
 
-				<div className="search-bar">
+				<div className="search-bar-container">
 					<SearchBar onSubmit={(query) => this.handleSearchBarSubmit(query)} />
 				</div>
 

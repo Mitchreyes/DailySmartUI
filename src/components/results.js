@@ -12,12 +12,14 @@ class Results extends Component {
 	}
 	render() {
 		return (
-			<div>
-				<div className="logo">
-					<Logo size={105} />
+			<div className="results-wrapper">
+				<div className="logo-container">
+					<Logo size={150} />
 				</div>
-				<SearchBar onSubmit={(query) => this.handleSearchBarSubmit(query)} />
-				<div className="results-posts">
+				<div className="search-bar-container">
+					<SearchBar onSubmit={(query) => this.handleSearchBarSubmit(query)} />
+				</div>
+				<div className="results-posts-container">
 					<ResultsPosts />
 				</div>
 			</div>
