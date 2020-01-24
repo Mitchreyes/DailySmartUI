@@ -1,11 +1,36 @@
-@import "html.scss";
-@import "home.scss";
-@import "searchbar.scss";
-@import "recentposts.scss";
-@import "posts.scss";
-
 ul {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
 }
+
+.post-topic {
+	margin: 0 4px;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.app-wrapper {
+	display: grid;
+	justify-content: center;
+}
+
+.logo-main,
+.recent-posts {
+	display: grid;
+	justify-items: center;
+}
+
+$color-gray-one: #666666;
+$color-gray-two: #b3b3b3;
+$color-blue-one: #0079ff;
+
+@import "mixins.scss";
+@import "html.scss";
+@import "home.scss";
+@import "searchbar.scss";
+@import "recentposts.scss";
+@import "posts.scss";
+@import "results.scss";
