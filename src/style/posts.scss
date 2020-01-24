@@ -1,7 +1,19 @@
 .recent-post {
-	.recent-post__title a {
+	display: grid;
+	align-content: space-around;
+	grid-row-gap: 6px;
+
+	.recent-post__topics > * {
+		color: $color-blue-one;
+		font-size: 14px;
+		line-height: 17px;
+	}
+
+	.recent-post__title {
 		color: $color-gray-one;
+		font-size: 18px;
 		text-decoration: none;
+		line-height: 17px;
 	}
 }
 
@@ -11,12 +23,4 @@
 	font-weight: bold;
 	text-align: left;
 	margin-right: 8px;
-}
-
-.post-link {
-	.post-link__box {
-	}
-
-	.post-link__link {
-	}
 }

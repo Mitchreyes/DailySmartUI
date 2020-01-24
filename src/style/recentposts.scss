@@ -21,3 +21,17 @@
 		}
 	}
 }
+
+.recent-post {
+	display: grid;
+
+	.recent-post__links {
+		display: flex;
+
+		a {
+			text-decoration: none;
+			color: $color-gray-one;
+			margin-right: 15px;
+		}
+	}
+}
