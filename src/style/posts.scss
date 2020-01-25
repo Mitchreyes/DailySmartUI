@@ -9,7 +9,7 @@
 		line-height: 17px;
 	}
 
-	.recent-post__title {
+	.recent-post__title a {
 		color: $color-gray-one;
 		font-size: 18px;
 		text-decoration: none;
@@ -23,4 +23,8 @@
 	font-weight: bold;
 	text-align: left;
 	margin-right: 8px;
+}
+
+.no-content {
+	color: $color-gray-one;
 }
